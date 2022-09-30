@@ -25,7 +25,30 @@
     "quotes": ["error", "single"],
     "no-duplicate-imports": "error",
     "import/no-unresolved": "error",
-    "import/order": "error"
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "never",
+        "pathGroups": [
+          {
+            "pattern": "views/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "components/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "hooks/**",
+            "group": "external",
+            "position": "after"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["builtin"]
+      }
+    ]
   },
   "settings": {
     "import/parsers": {
