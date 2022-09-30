@@ -14,6 +14,6 @@
     "sourceMap": true,
     "baseUrl": "src"
   },
-  "include": ["src"],
+  "include": ["src", ".app"],
   "exclude": ["node_modules"]
 }

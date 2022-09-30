@@ -48,7 +48,8 @@
         ],
         "pathGroupsExcludedImportTypes": ["builtin"]
       }
-    ]
+    ],
+    "@typescript-eslint/no-empty-interface": "off"
   },
   "settings": {
     "import/parsers": {
@@ -61,5 +62,5 @@
       "typescript": {}
     }
   },
-  "ignorePatterns": ["webpack.config.js"]
+  "ignorePatterns": [".app", "webpack.config.js"]
 }

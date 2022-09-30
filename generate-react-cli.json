@@ -1,0 +1,22 @@
+{
+  "usesTypeScript": true,
+  "usesCssModule": true,
+  "cssPreprocessor": "scss",
+  "testLibrary": "None",
+  "component": {
+    "default": {
+      "path": "src/components",
+      "withStyle": true,
+      "withIndex": true,
+      "withInterface": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "index": ".app/cli/templates/component/index.ts",
+        "component": ".app/cli/templates/component/TemplateName.tsx",
+        "interface": ".app/cli/templates/component/TemplateName.interface.ts"
+      }
+    }
+  }
+}
