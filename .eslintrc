@@ -60,5 +60,6 @@
     "import/resolver": {
       "typescript": {}
     }
-  }
+  },
+  "ignorePatterns": ["webpack.config.js"]
 }

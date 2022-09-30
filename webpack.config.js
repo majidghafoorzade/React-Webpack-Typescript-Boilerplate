@@ -1,6 +1,7 @@
 const prod = process.env.NODE_ENV === 'production';
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 require('dotenv').config();
 
 module.exports = {
@@ -13,8 +14,31 @@ module.exports = {
         use: 'ts-loader',
         exclude: /node_modules/,
         resolve: {
-          extensions: ['.tsx', '.ts', '.js', '.jsx'],
+          extensions: ['.tsx', '.ts', '.js', '.jsx', '.scss'],
         },
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          {
+            loader: 'css-loader',
+            options: {
+              modules: {
+                auto: true,
+                localIdentName: '[hash:base64:5]',
+              },
+            },
+          },
+          {
+            loader: 'sass-loader',
+            // options: {
+            //   sassOptions: {
+            //     importer: globImporter()
+            //   }
+            // }
+          }
+        ],
       },
     ],
   },
@@ -28,6 +52,9 @@ module.exports = {
       template: 'public/index.html',
       inject: 'body',
       title: process.env.APPLICATION_TITLE
+    }),
+    new MiniCssExtractPlugin({
+      filename: 'assets/css/app.min.css',
     }),
   ],
   resolve: {
