@@ -1,8 +1,10 @@
-const prod = process.env.NODE_ENV === 'production';
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const globImporter = require('node-sass-glob-importer');
 require('dotenv').config();
+
+const prod = process.env.NODE_ENV === 'production';
 
 module.exports = {
   mode: prod ? 'production' : 'development',
@@ -18,7 +20,7 @@ module.exports = {
         },
       },
       {
-        test: /\.scss$/,
+        test: /\.(sass|scss)$/,
         use: [
           MiniCssExtractPlugin.loader,
           {
@@ -32,11 +34,11 @@ module.exports = {
           },
           {
             loader: 'sass-loader',
-            // options: {
-            //   sassOptions: {
-            //     importer: globImporter()
-            //   }
-            // }
+            options: {
+              sassOptions: {
+                importer: globImporter()
+              }
+            }
           }
         ],
       },
