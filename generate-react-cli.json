@@ -18,6 +18,20 @@
         "interface": ".app/cli/templates/component/TemplateName.interface.ts"
       }
     },
+    "component": {
+      "path": "src/components",
+      "withStyle": true,
+      "withIndex": true,
+      "withInterface": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "index": ".app/cli/templates/component/index.ts",
+        "component": ".app/cli/templates/component/TemplateName.tsx",
+        "interface": ".app/cli/templates/component/TemplateName.interface.ts"
+      }
+    },
     "view": {
       "path": "src/views",
       "withStyle": true,
@@ -30,6 +44,48 @@
         "index": ".app/cli/templates/view/index.ts",
         "component": ".app/cli/templates/view/TemplateName.tsx",
         "interface": ".app/cli/templates/view/TemplateName.interface.ts"
+      }
+    },
+    "layout": {
+      "path": "src/layouts",
+      "withStyle": true,
+      "withIndex": true,
+      "withInterface": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "index": ".app/cli/templates/layout/index.ts",
+        "component": ".app/cli/templates/layout/TemplateName.tsx",
+        "interface": ".app/cli/templates/layout/TemplateName.interface.ts"
+      }
+    },
+    "hook": {
+      "path": "src/hooks",
+      "withStyle": false,
+      "withIndex": true,
+      "withInterface": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "index": ".app/cli/templates/hook/index.ts",
+        "component": ".app/cli/templates/hook/TemplateName.ts",
+        "interface": ".app/cli/templates/hook/TemplateName.interface.ts"
+      }
+    },
+    "service": {
+      "path": "src/services",
+      "withStyle": false,
+      "withIndex": true,
+      "withInterface": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "index": ".app/cli/templates/service/index.ts",
+        "component": ".app/cli/templates/service/TemplateName.ts",
+        "interface": ".app/cli/templates/service/TemplateName.interface.ts"
       }
     }
   }
