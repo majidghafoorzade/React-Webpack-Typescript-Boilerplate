@@ -27,33 +27,33 @@ npx generate-react-cli component <name> --type=<type> --path=<path>
 
 Basic Examples:
 ```Shell
-#Generate a Button component in components/ directory
+# Generate a Button component in components/ directory
 npx generate-react-cli component Button
 
-#or
+# or
 npx generate-react-cli component Button --type=component
 
 
-#Generate a Login view page in views/ directory
+# Generate a Login view page in views/ directory
 npx generate-react-cli component Login --type=view
 
 
-#Generate a layout in layouts/ directory
+# Generate a layout in layouts/ directory
 npx generate-react-cli component DashboardLayout --type=layout
 
 
-#Generate a custom hook in hooks/ directory
+# Generate a custom hook in hooks/ directory
 npx generate-react-cli component useClickOutside --type=hook
 
 
-#Generate a service in service/ directory
+# Generate a service in service/ directory
 npx generate-react-cli component CustomRequest --type=service
 
 ```
 
 Generate in custom paths:
 ```Shell
-#Generate a Button component in components/common/ directory
+# Generate a Button component in components/common/ directory
 npx generate-react-cli component Button --path=src/components/common
 
 ```
