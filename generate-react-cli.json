@@ -17,6 +17,20 @@
         "component": ".app/cli/templates/component/TemplateName.tsx",
         "interface": ".app/cli/templates/component/TemplateName.interface.ts"
       }
+    },
+    "view": {
+      "path": "src/views",
+      "withStyle": true,
+      "withIndex": true,
+      "withInterface": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "index": ".app/cli/templates/view/index.ts",
+        "component": ".app/cli/templates/view/TemplateName.tsx",
+        "interface": ".app/cli/templates/view/TemplateName.interface.ts"
+      }
     }
   }
 }
