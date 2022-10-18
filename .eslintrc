@@ -62,5 +62,5 @@
       "typescript": {}
     }
   },
-  "ignorePatterns": [".app", "webpack.config.js"]
+  "ignorePatterns": [".app", "webpack.config.js", "commitlint.config.js"]
 }
