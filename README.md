@@ -21,7 +21,7 @@ Nika has a Pre-configured CLI using `generate-react-cli`.
 With the help of this cli, you can automatically generate components, pages, layouts, services and hooks with a specified template.
 
 Command Structure:
-```
+```Shell
 npx generate-react-cli component <name> --type=<type> --path=<path>
 ```
 
