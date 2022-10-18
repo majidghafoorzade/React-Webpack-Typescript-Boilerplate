@@ -26,7 +26,7 @@ npx generate-react-cli component <name> --type=<type> --path=<path>
 ```
 
 Basic Examples:
-```
+```Shell
 // Generate a Button component in components/ directory
 npx generate-react-cli component Button
 
@@ -52,7 +52,7 @@ npx generate-react-cli component CustomRequest --type=service
 ```
 
 Generate in custom paths:
-```
+```Shell
 // Generate a Button component in components/common/ directory
 npx generate-react-cli component Button --path=src/components/common
 
