@@ -30,6 +30,9 @@ Basic Examples:
 // Generate a Button component in components/ directory
 npx generate-react-cli component Button
 
+// or
+npx generate-react-cli component Button --type=component
+
 
 // Generate a Login view page in views/ directory
 npx generate-react-cli component Login --type=view
@@ -45,6 +48,13 @@ npx generate-react-cli component useClickOutside --type=hook
 
 // Generate a service in service/ directory
 npx generate-react-cli component CustomRequest --type=service
+
+```
+
+Generate in custom paths:
+```
+// Generate a Button component in components/common/ directory
+npx generate-react-cli component Button --path=src/components/common
 
 ```
 
