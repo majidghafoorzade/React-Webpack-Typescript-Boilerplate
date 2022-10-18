@@ -1,7 +1,7 @@
 {
-  "name": "xina",
+  "name": "nika",
   "version": "1.0.0",
-  "description": "Xina React Component Framework",
+  "description": "React, Webpack & Typescript starter-kit",
   "scripts": {
     "start": "webpack serve",
     "build": "webpack --mode=production",
@@ -10,7 +10,7 @@
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "prepare": "husky install"
   },
-  "author": "Xina Group",
+  "author": "Majid Ghafoorzade",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^18.0.21",
