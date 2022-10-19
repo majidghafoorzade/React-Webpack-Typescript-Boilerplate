@@ -51,6 +51,9 @@ npx generate-react-cli component useClickOutside --type=hook
 # Generate a service in service/ directory
 npx generate-react-cli component CustomRequest --type=service
 
+# Generate a store in store/ directory
+npx generate-react-cli component Bears --type=store
+
 ```
 
 Generate in custom paths:
