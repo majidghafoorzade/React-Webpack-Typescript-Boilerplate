@@ -8,19 +8,20 @@
 2. `Typescript` language
 3. `Webpack` as module bundler
 4. `Sass` as styles management stack
-5. `Eslint`, `Prettier`, `Husky` & `lint-staged` for improve code style
-6. `Stylelint` for improve css & sass code style
-7. `commitlint` for improve git commit messages style
-8. Recommended folder structure for enterprise web apps
-9. Built-in Translation system 
-10. Powerfull Pre-configured CLI to Generate components, hooks and etc using `generate-react-cli`
+5. `Zustand` as state management
+6. `Eslint`, `Prettier`, `Husky` & `lint-staged` for improve code style
+7. `Stylelint` for improve css & sass code style
+8. `commitlint` for improve git commit messages style
+9. Recommended folder structure for enterprise web apps
+10. Built-in Translation system 
+11. Powerfull Pre-configured CLI to Generate components, hooks and etc using `generate-react-cli`
 
 ## Table of contents
 * Generator CLI Documentation
 
 ## Genarator CLI Documentation
 Nika has a Pre-configured CLI using `generate-react-cli`.
-With the help of this cli, you can automatically generate components, pages, layouts, services and hooks with a specified template.
+With the help of this cli, you can automatically generate components, pages, layouts, services, hooks, stores and etc with a specified template.
 
 Command Structure:
 ```Shell
@@ -50,6 +51,7 @@ npx generate-react-cli component useClickOutside --type=hook
 
 # Generate a service in service/ directory
 npx generate-react-cli component CustomRequest --type=service
+
 
 # Generate a store in store/ directory
 npx generate-react-cli component Bears --type=store
