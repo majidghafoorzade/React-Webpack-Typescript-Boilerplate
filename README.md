@@ -8,10 +8,12 @@
 2. `Typescript` language
 3. `Webpack` as module bundler
 4. `Sass` as styles management stack
-5. `Eslint`, `Prettier` & `Husky` for code styling
-6. Recommended folder structure for enterprise web apps
-7. Built-in Translation system 
-8. Powerfull Pre-configured CLI to Generate components, hooks and etc using `generate-react-cli`
+5. `Eslint`, `Prettier`, `Husky` & `lint-staged` for improve code style
+6. `Stylelint` for improve css & sass code style
+7. `commitlint` for improve git commit messages style
+8. Recommended folder structure for enterprise web apps
+9. Built-in Translation system 
+10. Powerfull Pre-configured CLI to Generate components, hooks and etc using `generate-react-cli`
 
 ## Table of contents
 * Generator CLI Documentation
