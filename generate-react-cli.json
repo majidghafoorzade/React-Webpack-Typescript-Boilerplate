@@ -87,6 +87,20 @@
         "component": ".app/cli/templates/service/TemplateName.ts",
         "interface": ".app/cli/templates/service/TemplateName.interface.ts"
       }
+    },
+    "store": {
+      "path": "src/stores",
+      "withStyle": false,
+      "withIndex": true,
+      "withInterface": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "index": ".app/cli/templates/store/index.ts",
+        "component": ".app/cli/templates/store/TemplateNameStore.ts",
+        "interface": ".app/cli/templates/store/TemplateNameStore.interface.ts"
+      }
     }
   }
 }
