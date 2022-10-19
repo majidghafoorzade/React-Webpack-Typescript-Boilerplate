@@ -16,6 +16,10 @@
 10. Built-in Translation system with `useTranslation` custom hook
 11. Powerfull Pre-configured CLI to Generate components, hooks and etc using `generate-react-cli`
 
+## Usefull Utility Libreries
+* clsx
+* dotenv
+
 ## Table of contents
 * Generator CLI Documentation
 
