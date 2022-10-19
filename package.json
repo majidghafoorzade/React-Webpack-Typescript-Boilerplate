@@ -54,12 +54,11 @@
   },
   "lint-staged": {
     "*.js": [
-        "eslint —-fix",
-        "prettier --write"
+      "npm run lint"
     ],
 
     "*.{css,scss}": [
-        "stylelint"
+        "npx stylelint"
     ]
   }
 }
