@@ -58,7 +58,7 @@
     ],
 
     "*.{css,scss}": [
-        "npx stylelint"
+      "npx stylelint"
     ]
   }
 }
