@@ -8,6 +8,8 @@
     "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
     "lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx,json}",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "stylelint": "npx stylelint \"./src/**/*.scss\"",
+    "stylelint:fix": "npx stylelint \"./src/**/*.scss\" --fix",
     "prepare": "husky install"
   },
   "author": "Majid Ghafoorzade",
@@ -30,11 +32,16 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "mini-css-extract-plugin": "^2.6.1",
     "node-sass-glob-importer": "^5.3.2",
     "prettier": "^2.7.1",
     "sass": "^1.55.0",
     "sass-loader": "^13.0.2",
+    "stylelint": "^14.14.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-config-standard-scss": "^5.0.0",
     "ts-loader": "^9.4.1",
     "typescript": "^4.8.4",
     "webpack": "^5.74.0",
@@ -44,5 +51,14 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint"
+    ],
+
+    "*.{css,scss}": [
+      "npx stylelint"
+    ]
   }
 }
