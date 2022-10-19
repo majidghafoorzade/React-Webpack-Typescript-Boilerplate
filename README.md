@@ -13,7 +13,7 @@
 7. `Stylelint` for improve css & sass code style
 8. `commitlint` for improve git commit messages style
 9. Recommended folder structure for enterprise web apps
-10. Built-in Translation system 
+10. Built-in Translation system with `useTranslation` custom hook
 11. Powerfull Pre-configured CLI to Generate components, hooks and etc using `generate-react-cli`
 
 ## Table of contents
