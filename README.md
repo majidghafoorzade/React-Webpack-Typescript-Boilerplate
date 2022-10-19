@@ -7,14 +7,15 @@
 1. `React` & `ReactDom` as frontend-stack
 2. `Typescript` language
 3. `Webpack` as module bundler
-4. `Sass` as styles management stack
-5. `Zustand` as state management
-6. `Eslint`, `Prettier`, `Husky` & `lint-staged` for improve code style
-7. `Stylelint` for improve css & sass code style
-8. `commitlint` for improve git commit messages style
-9. Recommended folder structure for enterprise web apps
-10. Built-in Translation system with `useTranslation` custom hook
-11. Powerfull Pre-configured CLI to Generate components, hooks and etc using `generate-react-cli`
+4. `React-Router` to handle application routing
+5. `Sass` as styles management stack
+6. `Zustand` as state management
+7. `Eslint`, `Prettier`, `Husky` & `lint-staged` for improve code style
+8. `Stylelint` for improve css & sass code style
+9. `commitlint` for improve git commit messages style
+10. Recommended folder structure for enterprise web apps
+11. Built-in Translation system with `useTranslation` custom hook
+12. Powerfull Pre-configured CLI to Generate components, hooks and etc using `generate-react-cli`
 
 ## Usefull Utility Libreries
 * clsx
