@@ -31,6 +31,21 @@
         "newlines-between": "never",
         "pathGroups": [
           {
+            "pattern": "react",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "**",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "layouts/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
             "pattern": "views/**",
             "group": "external",
             "position": "after"
@@ -41,7 +56,22 @@
             "position": "after"
           },
           {
+            "pattern": "stores/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "services/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
             "pattern": "hooks/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "constants/**",
             "group": "external",
             "position": "after"
           }
