@@ -18,8 +18,10 @@
 12. Powerfull Pre-configured CLI to Generate components, hooks and etc using `generate-react-cli`
 
 ## Usefull Utility Libreries
+* axios
 * clsx
 * dotenv
+* react-query
 
 ## Table of contents
 * Generator CLI Documentation
