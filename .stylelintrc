@@ -5,5 +5,8 @@
   ],
   "rules": {
     "selector-class-pattern": "[a-zA-Z]"
-  }
+  },
+  "ignoreFiles": [
+    ".app/cli/templates/**/*.scss"
+  ]
 }
