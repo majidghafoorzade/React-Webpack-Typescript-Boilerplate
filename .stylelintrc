@@ -4,7 +4,8 @@
     "stylelint-config-prettier"
   ],
   "rules": {
-    "selector-class-pattern": "[a-zA-Z]"
+    "selector-class-pattern": "[a-zA-Z]",
+    "font-family-no-missing-generic-family-keyword": null
   },
   "ignoreFiles": [
     ".app/cli/templates/**/*.scss"
